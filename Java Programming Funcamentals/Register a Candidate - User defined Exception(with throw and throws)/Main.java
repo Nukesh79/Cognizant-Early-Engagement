@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Main {
-    public static Candidate getCandidateDetails() throws InvalidSalaryException {
+    public static Candidate getCandidateDetails() throw InvalidSalaryException; {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter the candidate Details");
